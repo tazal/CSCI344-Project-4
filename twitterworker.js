@@ -12,8 +12,8 @@ var worker = function () {
       access_token_key: credentials.access_token_key,
       access_token_secret: credentials.access_token_secret
     }),
-    happyArray = ["happy"],
-    sadArray = ["sad"],
+    happyArray = ["happy", "ecstatic", "joyful"],
+    sadArray = ["sad", "depressed", "morose"],
     trackedArray = happyArray.concat(sadArray),
     i,
     j;
