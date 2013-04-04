@@ -27,5 +27,4 @@ var worker = function () {
         }
     );
 };
-
 module.exports = worker;
