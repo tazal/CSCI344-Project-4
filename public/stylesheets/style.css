@@ -5,3 +5,17 @@ body {
 p {
   color: #FFFFFF;
 }
+
+#happy {
+  background: #DDDD00;
+  color: #000000;
+  float: right;
+  width: 50%;
+}
+
+#sad {
+  background: #9999EE;
+  color: #000000;
+  float: left
+  width: 50%;
+}

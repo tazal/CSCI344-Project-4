@@ -23,7 +23,7 @@ var worker = function () {
     { track: trackedArray },
     function(stream) {
       stream.on("data", function(tweet) {
-        console.log(tweet.text);
+        //console.log(tweet.text);
 
         for (i = 0; i < happyArray.length; i += 1) {
           if(tweet.text.indexOf(happyArray[i]) > -1) {
