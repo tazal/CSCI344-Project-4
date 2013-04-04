@@ -1,0 +1,10 @@
+{
+    "name": "projectfour",
+    "description": "a program for tracking the general sentiment of twitter",
+    "version": "0.0.1",
+    "dependencies": {
+	      "express": "3.1.x",
+        "ntwitter": "0.5.x",
+        "redis": "0.8.x"
+    }
+}
