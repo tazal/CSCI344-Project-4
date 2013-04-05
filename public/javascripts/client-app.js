@@ -25,8 +25,8 @@ var main = function () {
       $("title").append(":D");
     }
     
-    $("#happy").append("<h2>" + response.happy + "</h2>");
-    $("#sad").append("<h2>" + response.sad + "</h2>");
+    $("#happy").append("<h2>" + response.happy + "</h2> <h4>(tracked tags: " + response.happyarray + ")</h4>");
+    $("#sad").append("<h2>" + response.sad + "</h2> <h4>(tracked tags: " + response.sadarray + ")</h4>");
   });
 };
 
